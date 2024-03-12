@@ -1,10 +1,13 @@
 import React from "react";
+import "./Cart.css";
+import CartList from "../CartList/CartList";
 
 const Cart = ({ cart }) => {
   return (
-    <div>
+    <div className="cart">
       <h3>Order summery</h3>
-      <p>Selected Items: {cart.length}</p>
+      <p>Selected Items:</p>
+      <CartList cartList={cart.length ? cart : []}></CartList>
     </div>
   );
 };
