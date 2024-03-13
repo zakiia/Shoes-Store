@@ -1,6 +1,8 @@
 import React from "react";
+import "./CartList.css";
 
 const CartList = (props) => {
+  console.log(props);
   const { cartList } = props;
 
   return (
@@ -10,6 +12,7 @@ const CartList = (props) => {
           <li key={list.id}>{list.name}</li>
         ))}
       </ul>
+      <button className="btn">Choose One</button>
     </span>
   );
 };

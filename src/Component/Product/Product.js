@@ -12,7 +12,7 @@ const Product = ({ product, handleAddToCart }) => {
         <p className="product-name">{name}</p>
         <p>Price: ${price}</p>
         <p>
-          <small>Selle: {seller}</small>
+          <small>Seller: {seller}</small>
         </p>
         <p>
           <small>Ratings: {ratings} stars</small>
