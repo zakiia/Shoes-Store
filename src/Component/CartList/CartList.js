@@ -2,7 +2,6 @@ import React from "react";
 import "./CartList.css";
 
 const CartList = (props) => {
-  console.log(props);
   const { cartList } = props;
 
   return (
